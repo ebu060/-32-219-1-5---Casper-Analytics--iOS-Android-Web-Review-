@@ -1,9 +1,9 @@
-Review | [32 - 219-1-5 - Casper Analytics - iOS/Android/Web](https://crdao.ossa.dev/Job-Detail/32)
+Grant Proposal | [219 - Casper Analytics - iOS/Android/Web](https://portal.devxdao.com/public-proposals/219)
 ------------ | -------------
-Milestone | 1
-Milestone Title | Webapplication and API
-OP | tmesser
-Reviewer | Ebubekir Yardımcı
+Milestone | 1-5
+Milestone Title | All milestones
+OP | Mikael | CasperCommunity.io
+Reviewer | Ebubekir Yardımcı <ebubekir.yrd@gmail.com>
 
 # Milestone Details
 
@@ -125,7 +125,7 @@ Requirement | Finding
 ------------ | -------------
 Project builds without errors | FAIL
 Documentation provides sufficient installation/execution instructions | PASS
-Project functionality meets/exceeds acceptance criteria and operates without error | PASS
+Project functionality meets/exceeds acceptance criteria and operates without error | FAIL
 
 # Unit / Automated Testing
 
@@ -287,7 +287,7 @@ OSI-approved open source software license | PASS
 
 ## Contribution Policies
 
-Pull requests and Issues are enabled. And, the projects has contain a CONTRIBUTING and README policy. 
+Pull requests and Issues are enabled. And, the project contain a CONTRIBUTING policy. 
 
 Requirement | Finding
 ------------ | -------------
@@ -297,14 +297,14 @@ OSS contribution best practices | PASS
 
 ## General Observations
 
-Code is generally well-structured and readable. The Github linked project is easy and successful to install, but an error was encountered during the installation phase of the app project. An error was received in the unit tests of the project. Manual tests pass. However, these errors do not prevent the project from being successful.
+Code is generally well-structured and readable. The Github linked project is easy and successful to install, but an error was encountered during the installation phase of the app project. An error was received in the unit tests of the project. Manual tests fail for making a delegation using the casper signer. These errors do prevent the project from being unsuccessful.
 
 # Final Conclusion
 
-The project provides the functionality described in the grant application and milestone acceptance criteria. It also meets the standards required by the CRDAO. However, it is recommended to fix the package in the lib file and test error. Thus, in the reviewer's opinion, this submission should pass with notes.
+The project provides the most of the functionalities described in the grant application and milestone acceptance criteria.However, It is recommended to fix the package in the lib file , test errors. In addition, one of the milestones "Making a delegation using casper signer" is broken. Thus, in the reviewer's opinion, this submission should be fail.
 
 # Recommendation
 
-Recommendation | PASS (Improvements Suggested)
+Recommendation | FAIL
 ------------ | -------------
 
