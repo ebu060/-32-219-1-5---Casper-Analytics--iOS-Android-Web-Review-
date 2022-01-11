@@ -2,7 +2,7 @@ Grant Proposal | [219 - Casper Analytics - iOS/Android/Web](https://portal.devxd
 ------------ | -------------
 Milestone | 1-5
 Milestone Title | All milestones
-OP | Mikael - CasperCommunity.io
+OP | Mikael | CasperCommunity.io
 Reviewer | Ebubekir Yardımcı <ebubekir.yrd@gmail.com>
 
 # Milestone Details
@@ -118,7 +118,9 @@ While the 'cspr.live' redirect for the 'stake with us' button in the mobile app 
 
 ## Overall Impression of usage testing
 
-Reviewer was able to build and run the project by following the provided instructions, and test the functionality and usage on the already deployed instance. The documentation also provides sufficient installation/execution instructions for different scenarios. Reviewer observed that the project functionality meets/exceeds acceptance criteria and operates without error generally. It was seen that the production deployment didn't have a proper SSL configuration; however this does not cause a failure as it is a deployment-specific issue which can be fixed without changing the source code.
+The reviewer was unable to build and run the project following the instructions provided due to a target error in the lib file.
+But apart from this error the documentation also provides adequate installation/execution instructions for different scenarios.
+The reviewer thinks that the project functionality will meet the acceptance criteria once the bugs are fixed.
 
 
 Requirement | Finding
@@ -297,11 +299,13 @@ OSS contribution best practices | PASS
 
 ## General Observations
 
-Code is generally well-structured and readable. The Github linked project is easy and successful to install, but an error was encountered during the installation phase of the app project. An error was received in the unit tests of the project. Manual tests fail for making a delegation using the casper signer. These errors do prevent the project from being unsuccessful.
+Code is generally well-structured and readable. The Github linked project is easy and successful to install, but an error was encountered during the installation phase of the app project. An error was received in the unit tests of the project. Manual tests fail for making a delegation using the casper signer. These errors prevent the project from succeeding.
 
 # Final Conclusion
-
-The project provides the most of the functionalities described in the grant application and milestone acceptance criteria.However, It is recommended to fix the package in the lib file , test errors. In addition, one of the milestones "Making a delegation using casper signer" is broken. Thus, in the reviewer's opinion, this submission should be fail.
+The project provides the most of the functionalities described in the grant application and milestone acceptance criteria. 
+The reviewer praises the OP for the general stability and the fluid user experience of the app.
+However, it is recommended to fix test errors in the lib file. Also the "delegate using casper signer" in the milestone doesn't work properly. 
+Thus, in the reviewer's opinion, this submission should fail.
 
 # Recommendation
 
